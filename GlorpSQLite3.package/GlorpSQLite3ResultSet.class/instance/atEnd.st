@@ -1,0 +1,3 @@
+streaming
+atEnd
+	^ rowStream atEnd

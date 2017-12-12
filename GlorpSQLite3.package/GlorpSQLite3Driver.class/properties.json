@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "PierceNg 5/13/2016 07:44",
+	"super" : "DatabaseDriver",
+	"category" : "GlorpSQLite3",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"inTxn",
+		"txnGuard"
+	],
+	"name" : "GlorpSQLite3Driver",
+	"type" : "normal"
+}

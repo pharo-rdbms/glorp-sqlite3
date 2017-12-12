@@ -1,0 +1,1 @@
+I am a Glorp result set. I wrap a UDBCSQLite3ResultSet.

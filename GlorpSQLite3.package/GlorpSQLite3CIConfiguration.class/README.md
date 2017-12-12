@@ -1,0 +1,1 @@
+I am a configuration for continuous integration.

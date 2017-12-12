@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "PierceNg 5/13/2016 08:44",
+	"super" : "Object",
+	"category" : "GlorpSQLite3",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"rows",
+		"rowStream",
+		"command",
+		"connection"
+	],
+	"name" : "GlorpSQLite3ResultSet",
+	"type" : "normal"
+}
