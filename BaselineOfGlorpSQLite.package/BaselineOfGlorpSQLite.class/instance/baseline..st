@@ -12,7 +12,7 @@ baseline: spec
 				repository: 'http://www.smalltalkhub.com/mc/TorstenBergmann/UDBC/main' ].
 
 		spec baseline: 'Glorp' with: [ 
-			spec repository: 'github://pharo-rdbms/glorp' ].
+			spec repository: 'github://PierceNg/glorp' ].
 
 		spec 
 			package: 'GlorpSQLite3' with: [
