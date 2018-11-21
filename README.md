@@ -23,3 +23,13 @@ Metacello new
 	baseline: 'GlorpSQLite';
 	load.
 ```
+
+For Pharo 7, load from this repo's pharo7dev branch:
+
+```smalltalk
+Metacello new 
+	repository: 'github://PierceNg/glorp-sqlite3:pharo7dev';
+	baseline: 'GlorpSQLite';
+	load.
+```
+
