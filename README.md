@@ -24,11 +24,11 @@ Metacello new
 	load.
 ```
 
-For Pharo 7, load from this repo's pharo7dev branch:
+For Pharo 7, load from this repo's pharo7 branch:
 
 ```smalltalk
 Metacello new 
-	repository: 'github://PierceNg/glorp-sqlite3:pharo7dev';
+	repository: 'github://PierceNg/glorp-sqlite3:pharo7';
 	baseline: 'GlorpSQLite';
 	load.
 ```
