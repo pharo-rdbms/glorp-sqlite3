@@ -1,7 +1,7 @@
 # glorp-sqlite3
 UDBC SQLite3 adaptor for Glorp
 
-This package loads Glorp and loads and configures the UDBC SQLite3 drivers for Glorp.
+This package loads Glorp and loads and configures the [UDBC SQLite3 drivers](https://github.com/astares/Pharo-UDBC) for Glorp.
 
 For further information on Glorp, please see the pharo-rdbms/glorp repository: https://github.com/pharo-rdbms/glorp
 
