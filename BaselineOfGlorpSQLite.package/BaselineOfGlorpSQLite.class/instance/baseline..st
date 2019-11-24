@@ -5,11 +5,14 @@ baseline: spec
 	spec for: #common do: [
 		spec blessing: #baseline.
 
-		spec baseline: 'UDBC' with: [ 
-			spec repository: 'github://astares/Pharo-UDBC' ].
+		spec project: 'UDBC' with: [ 
+			spec 
+				className: 'ConfigurationOfUDBC';
+				version: #bleedingEdge;
+				repository: 'http://www.smalltalkhub.com/mc/TorstenBergmann/UDBC/main' ].
 
 		spec baseline: 'Glorp' with: [ 
-			spec repository: 'github://pharo-rdbms/glorp:pharo7' ].
+			spec repository: 'github://pharo-rdbms/glorp' ].
 
 		spec 
 			package: 'GlorpSQLite3' with: [
