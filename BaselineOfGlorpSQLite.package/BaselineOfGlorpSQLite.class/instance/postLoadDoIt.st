@@ -1,5 +1,5 @@
 pre-post-load-do-its
 postLoadDoIt
 
-	#GlorpSQLite3CIConfiguration asClass new configureSqlite3.
-	#GlorpDemoTablePopulatorResource asClass invalidateSetup.
+	(self class environment at: #GlorpSQLite3CIConfiguration) new configureSqlite3.
+	(self class environment at: #GlorpDemoTablePopulatorResource) invalidateSetup
