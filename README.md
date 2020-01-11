@@ -1,7 +1,7 @@
 # glorp-sqlite3
-UDBC SQLite3 adaptor for Glorp
+SQLite3 adaptor for Glorp
 
-This package loads Glorp and loads and configures the [UDBC SQLite3 drivers](https://github.com/astares/Pharo-UDBC) for Glorp.
+This package loads Glorp and loads and configures the [SQLite3 driver](https://github.com/pharo-rdbms/Pharo-SQLite3) for Glorp.
 
 For further information on Glorp, please see the pharo-rdbms/glorp repository: https://github.com/pharo-rdbms/glorp
 
@@ -9,18 +9,7 @@ For further information on Glorp, please see the pharo-rdbms/glorp repository: h
 
 ```smalltalk
 Metacello new 
-	repository: 'github://pharo-rdbms/glorp-sqlite3:pharo7';
+	repository: 'github://pharo-rdbms/glorp-sqlite3:p7_newsqlite';
 	baseline: 'GlorpSQLite';
 	load.
 ```
-
-## Pharo 6
-
-```smalltalk
-Metacello new 
-	repository: 'github://pharo-rdbms/glorp-sqlite3';
-	baseline: 'GlorpSQLite';
-	load.
-```
-
-
