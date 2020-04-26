@@ -9,7 +9,7 @@ baseline: spec
 			spec repository: 'github://pharo-rdbms/Pharo-SQLite3' ].
 
 		spec baseline: 'Glorp' with: [ 
-			spec repository: 'github://pharo-rdbms/glorp:pharo7' ].
+			spec repository: 'github://pharo-rdbms/glorp' ].
 
 		spec 
 			package: 'GlorpSQLite3' with: [
