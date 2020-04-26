@@ -5,8 +5,8 @@ baseline: spec
 	spec for: #common do: [
 		spec blessing: #baseline.
 
-		spec baseline: 'UDBC' with: [ 
-			spec repository: 'github://astares/Pharo-UDBC' ].
+		spec baseline: 'SQLite3' with: [ 
+			spec repository: 'github://pharo-rdbms/Pharo-SQLite3' ].
 
 		spec baseline: 'Glorp' with: [ 
 			spec repository: 'github://pharo-rdbms/glorp:pharo7' ].
@@ -14,6 +14,6 @@ baseline: spec
 		spec 
 			package: 'GlorpSQLite3' with: [
 				spec
-					requires: 'UDBC';
+					requires: 'SQLite3';
 					requires: 'Glorp' ];
 			postLoadDoIt: #postLoadDoIt]
